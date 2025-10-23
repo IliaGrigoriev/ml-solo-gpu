@@ -1,4 +1,5 @@
 1) Parse BPMN → Graph tensors:
+   
   Nodes: tasks, gateways, events.
   Edges: sequence flows.
   Features: one-hot type, normalized numeric attributes (if available).
