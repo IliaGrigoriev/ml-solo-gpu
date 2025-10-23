@@ -11,5 +11,5 @@
 - Mean pooling across nodes in each process.
 
 4) Visualisation:
-- Use cosine similarity, PCA, or t-SNE to find clusters of similar processes or anomalies.
+- cosine similarity, PCA, or t-SNE to find clusters of similar processes or anomalies.
 
