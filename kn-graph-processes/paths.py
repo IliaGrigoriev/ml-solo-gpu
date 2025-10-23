@@ -1,0 +1,1 @@
+SAP_SAM = '/home/ilia/Data/sap_sam_2022/models'
