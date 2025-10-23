@@ -1,8 +1,7 @@
 1) Parse BPMN → Graph tensors:
-   
-  Nodes: tasks, gateways, events.
-  Edges: sequence flows.
-  Features: one-hot type, normalized numeric attributes (if available).
+  - Nodes: tasks, gateways, events.
+  - Edges: sequence flows.
+  - Features: one-hot type, normalized numeric attributes (if available).
 
 2) Run message-passing kernel:
 Each node updates its vector by aggregating neighbor features (e.g., mean + linear + ReLU).
